@@ -26,7 +26,7 @@ The “AI Summarization Using Highly Resilient Serverless Architecture in IBM Cl
 ## Architecture diagram
 {: #architecture-diagram}
 
-![Network Diagram](/images/code-engine-app-pattern-arch-diagram.svg){: caption="Figure 1. AI Summarization Using Highly Resilient Serverless Architecture in IBM Cloud® solution architecture" caption-side="bottom"}
+![Network Diagram](images/code-engine-app-pattern-arch-diagram.svg){: caption="Figure 1. AI Summarization Using Highly Resilient Serverless Architecture in IBM Cloud® solution architecture" caption-side="bottom"}
 
 * IBM Cloud® Code Engine abstracts the operational burden of building, deploying, and managing workloads in Kubernetes so that developers can focus on what matters most to them: the source code.
 
@@ -70,7 +70,7 @@ Following the [Architecture Framework](https://cloud.ibm.com/docs/architecture-f
 
 * **Service management:** Monitoring, Logging, Auditing
 
-![Design Scope](/images/heat-map-template-codeengine-app.svg){: caption="Figure 2. AI Summarization Using Highly Resilient Serverless Architecture in IBM Cloud® design scope" caption-side="bottom"}
+![Design Scope](images/heat-map-template-codeengine-app.svg){: caption="Figure 2. AI Summarization Using Highly Resilient Serverless Architecture in IBM Cloud® design scope" caption-side="bottom"}
 
 The Architecture Framework provides a consistent approach to design cloud solutions by addressing requirements across a set of "aspects" and "domains", which are technology-agnostic architectural areas that need to be considered for any enterprise solution. See [Introduction to the architecture framework](https://cloud.ibm.com/docs/architecture-framework?topic=architecture-framework-intro) for more details.
 
