@@ -16,7 +16,7 @@ authors:
 # References
 {: #references}
 
-[IBM Cloud® Code Engine](https://cloud.ibm.com/docs/codeengine)
+[IBM Cloud® Code Engine](/docs/codeengine)
 
 [Benefits of IBM Cloud® Code Engine](https://cloud.ibm.com/docs/codeengine?topic=codeengine-about#benefits)
 
@@ -24,7 +24,7 @@ authors:
 
 [Supported integrations for IBM Cloud® Code Engine](https://cloud.ibm.com/docs/codeengine?topic=codeengine-supported-integrations)[IBM watsonx.ai](https://www.ibm.com/watsonx)
 
-[IBM Cloud SLA](https://www.ibm.com/support/customer/csol/terms/?id=i126-9268&lc=en)
+[IBM Cloud SLA](https://www.ibm.com/support/customer/csol/terms/?id=i126-9268&lc=en){: external}
 
 [IBM Cloud® Monitoring](https://cloud.ibm.com/docs/monitoring?topic=monitoring-getting-started)
 

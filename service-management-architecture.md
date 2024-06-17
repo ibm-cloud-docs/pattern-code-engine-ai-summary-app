@@ -34,6 +34,7 @@ The following are service management architecture decisions for the AI Summariza
 
 ## Architecture decisions for auditing
 {: #auditing}
+
 | **Architecture decision**        | **Requirement**        | **Options**       | **Decision**          | **Rationale**     |
 |----------------------------------|------------------------|-------------------|-----------------------|-------------------|
 | Audit Logging             | Monitor audit logs to track changes to cloud resources and detect potential security problems. | * IBM Cloud Activity Tracker  \n * Hosted Event Search | IBM Cloud Activity Tracker | * IBM Cloud Activity Tracker is integrated with IBM Cloud® Code Engine.  \n * View, manage, and audit user-initiated activities made in IBM Cloud® Code Engine service instance by using the IBM Cloud Activity Tracker service. |
