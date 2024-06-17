@@ -1,0 +1,63 @@
+---
+toc:
+  properties:
+    subcollection: pattern-code-engine-ai-summary-app
+    # industry: industry-value
+    use-case: Serverless Application
+    # compliance: compliance-value
+    audience: solution
+    content-type: reference-architecture
+    href: /docs/pattern-code-engine-ai-summary-app
+    path: pattern-code-engine-ai-summary-app
+    description: AI Summarization using Highly Resilient Serverless Architecture in IBM Cloud
+    label: IBM Cloud Code Engine Application
+  entries:
+  - navgroup:
+      id: overview
+      topics:
+      - overview.md
+  - navgroup:
+      id: architecture
+      topics:
+      - reference-architecture-pattern-ai-summ-code-engine-app.md
+  - navgroup:
+      id: plan
+      topics:
+      - topicgroup:
+          label: Design considerations
+          topics:
+          - topic: compute-design.md
+            navtitle: Compute
+          - topic: storage-design.md
+            navtitle: Storage
+          - topic: networking-design.md
+            navtitle: Networking
+          - topic: security-design.md
+            navtitle: Security
+          - topic: resiliency-design.md
+            navtitle: Resiliency
+          - topic: service-management-design.md
+            navtitle: Service management
+          - topic: code-engine-watsonx-integration-design.md
+            navtitle: Watsonx Integration
+      - topicgroup:
+          label: Architecture decisions
+          topics:
+          - topic: data-architecture.md
+            navtitle: Data
+          - topic: compute-architecture.md
+            navtitle: Compute
+          - topic: networking-architecture.md
+            navtitle: Networking
+          - topic: security-architecture.md
+            navtitle: Security
+          - topic: resiliency-architecture.md
+            navtitle: Resiliency
+          - topic: service-management-architecture.md
+            navtitle: Service management
+          - topic: devops-architecture.md
+            navtitle: DevOps
+  - navgroup:
+      id: reference
+      topics:
+        - references.md
