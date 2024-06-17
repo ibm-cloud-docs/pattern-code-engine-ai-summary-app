@@ -2,7 +2,7 @@
 copyright:
   years: 2023
 lastupdated: "2024-06-11"
-subcollection: "pattern-code-engine-ai-summary-app"
+subcollection: pattern-code-engine-ai-summary-app
 keywords:
 version: 1.0
 content-type: reference-architecture
