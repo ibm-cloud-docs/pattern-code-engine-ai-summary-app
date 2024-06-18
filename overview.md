@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2023
-lastupdated: "2024-06-11"
+  years: 2024, 2024
+lastupdated: "2024-06-18"
 subcollection: pattern-code-engine-ai-summary-app
 keywords:
 authors:
@@ -24,7 +24,7 @@ The web application uses ‘IBM-watsonx-ai’ Python library for inferencing usi
 
 While IBM Cloud® Code Engine serverless platform experience is designed so that one can focus on writing code and not on the infrastructure that is needed to host it, this guidance is intended to:
 
-* Accelerate and simplify solution design by providing a standard IBM Cloud deployment architecture reference following the [IBM Architecture Framework](https://cloud.ibm.com/docs/architecture-framework).
+* Accelerate and simplify solution design by providing a standard IBM Cloud deployment architecture reference following the [IBM Architecture Framework](/docs/architecture-framework).
 
 * Provide a prescriptive, end-2-end enterprise-class solution design, with diagrams, component architecture decisions along with rationale for cloud component selection to meet enterprise requirements.
 

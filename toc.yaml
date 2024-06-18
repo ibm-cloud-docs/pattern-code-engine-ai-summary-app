@@ -3,14 +3,14 @@ toc:
   properties:
     subcollection: pattern-code-engine-ai-summary-app
     # industry: industry-value
-    # use-case: Serverless Application
+    use-case: serverless
     # compliance: compliance-value
     audience: solution
     content-type: deployment
     href: /docs/pattern-code-engine-ai-summary-app
     path: pattern-code-engine-ai-summary-app
-    description: AI Summarization using highly resilient serverless architecture
-    label: AI Summarization using highly resilient serverless architecture
+    description: AI summarization using highly resilient serverless architecture
+    label: AI summarization using highly resilient serverless architecture
   entries:
   - navgroup:
       id: overview

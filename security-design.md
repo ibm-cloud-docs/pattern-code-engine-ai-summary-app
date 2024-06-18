@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2023
-lastupdated: "2024-06-11"
+  years: 2024, 2024
+lastupdated: "2024-06-18"
 subcollection: pattern-code-engine-ai-summary-app
 keywords:
 authors:
@@ -16,8 +16,8 @@ authors:
 # Security design
 {: #security-design}
 
-The [IBM Cloud® Code Engine architecture](https://cloud.ibm.com/docs/codeengine?topic=codeengine-architecture) is built with a security-first mindset.
-* IBM Cloud® Code Engine components are [managed and owned by IBM](https://cloud.ibm.com/docs/codeengine?topic=codeengine-responsibilities-ce).
+The [IBM Cloud® Code Engine architecture](/docs/codeengine?topic=codeengine-architecture) is built with a security-first mindset.
+* IBM Cloud® Code Engine components are [managed and owned by IBM](/docs/codeengine?topic=codeengine-responsibilities-ce).
 * Customers and their workloads are isolated from each other by using projects, which are based on Kubernetes namespaces.
 * Role-based access controls are performed on a resource level to allow only authorized users to perform certain operations on project resources.
 * User access is controlled by Cloud Identity and Access Management (IAM).
