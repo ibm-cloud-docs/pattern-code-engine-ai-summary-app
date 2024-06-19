@@ -16,7 +16,7 @@ authors:
 # Overview
 {: #overview}
 
-The objective of `AI summarization using highly resilient serverless architecture in {{site.data.keyword.cloud}}` pattern is to provide users a high-level overview of solution design and components used in hosting highly resilient serverless web application.
+The objective of "AI summarization using highly resilient serverless architecture pattern in {{site.data.keyword.cloud}}" pattern is to provide users a high-level overview of solution design and components used in hosting highly resilient serverless web application.
 
 This pattern describes deployment architecture of a web application on {{site.data.keyword.codeenginefull}} platform deployed across multiple regions of {{site.data.keyword.cloud_notm}}, making it resilient to regional failures and to meet disaster recovery requirements for enterprise workloads. Additionally, this pattern provides a use case for the web application demonstrating the text summarization capabilities that are easily available leveraging one of the large language models available in IBM watsonx.ai platform hosted in {{site.data.keyword.cloud_notm}}.
 

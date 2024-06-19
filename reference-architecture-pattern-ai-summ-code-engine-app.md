@@ -20,7 +20,7 @@ authors:
 {: toc-content-type="reference-architecture"}
 {: toc-version="1.0"}
 
-The `AI summarization using highly resilient serverless architecture in {{site.data.keyword.cloud}}` pattern describes an internet-facing web application deployed using {{site.data.keyword.codeenginefull}} serverless platform in two {{site.data.keyword.cloud_notm}} regions. By provisioning application in two regions user requests are served in an active-active manner and in case of an outage in one region the second region continues to serve user requests.
+The "AI summarization using highly resilient serverless architecture pattern in {{site.data.keyword.cloud}}" describes an internet-facing web application deployed using {{site.data.keyword.codeenginefull}} serverless platform in two {{site.data.keyword.cloud_notm}} regions. By provisioning application in two regions user requests are served in an active-active manner and in case of an outage in one region the second region continues to serve user requests.
 
 
 ## Architecture diagram
@@ -54,7 +54,7 @@ The `AI summarization using highly resilient serverless architecture in {{site.d
 ## Design scope
 {: #design-scope}
 
-Following the [Architecture Framework](/docs/architecture-framework?topic=architecture-framework-taxonomy), the `AI summarization using highly resilient serverless architecture in {{site.data.keyword.cloud_notm}}` pattern covers design considerations and architecture decisions for the following aspects and domains:
+Following the [Architecture Framework](/docs/architecture-framework?topic=architecture-framework-taxonomy), the "AI summarization using highly resilient serverless architecture pattern in {{site.data.keyword.cloud_notm}}" pattern covers design considerations and architecture decisions for the following aspects and domains:
 
 * **Data:** Artificial Intelligence
 
@@ -78,7 +78,7 @@ The Architecture Framework provides a consistent approach to design cloud soluti
 ## Requirements
 {: #requirements}
 
-The following represents a baseline set of requirements that are applicable to most clients and critical to successful `AI summarization using highly resilient serverless architecture in {{site.data.keyword.cloud_notm}}` deployment.
+The following represents a baseline set of requirements that are applicable to most clients and critical to successful "AI summarization using highly resilient serverless architecture pattern in {{site.data.keyword.cloud_notm}}" deployment.
 
 | Aspect             |  Requirement                                                          |
 |--------------------|-----------------------------------------------------------------------|

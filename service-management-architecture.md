@@ -14,7 +14,7 @@ authors:
 # Architecture decisions for service management
 {: #service}
 
-The following are service management architecture decisions for the `AI summarization using highly resilient serverless architecture in {{site.data.keyword.cloud}}` pattern.
+The following are service management architecture decisions for the "AI summarization using highly resilient serverless architecture pattern in {{site.data.keyword.cloud}}" pattern.
 
 ## Architecture decisions for monitoring
 {: #monitoring}

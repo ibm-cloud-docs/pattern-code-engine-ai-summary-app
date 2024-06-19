@@ -16,7 +16,7 @@ authors:
 # Architecture decisions for compute
 {: #compute-decisions}
 
-The following are compute architecture decisions for the inclusion of watsonx.ai summarization in the `AI summarization using highly resilient serverless architecture in {{site.data.keyword.cloud}}` pattern.
+The following are compute architecture decisions for the inclusion of watsonx.ai summarization in the "AI summarization using highly resilient serverless architecture pattern in {{site.data.keyword.cloud}}" pattern.
 
 | Architecture decision    | Requirement     | Options     | Decision       | Rationale     |
 |------------------------------|---------------------|------------------|---------------------|--------------------|
