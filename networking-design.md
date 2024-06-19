@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024, 2024
-lastupdated: "2024-06-18"
+lastupdated: "2024-06-19"
 subcollection: pattern-code-engine-ai-summary-app
 keywords:
 authors:
@@ -16,15 +16,15 @@ authors:
 # Network design
 {: #network-design}
 
-All IBM Cloud® Code Engine projects offer integration with IBM Cloud® Virtual Private Endpoints (VPE) for Virtual Private Cloud (VPC). This support gives you the ability to connect from your VPC network to IBM Cloud® Code Engine applications or functions by using the IP addresses of your choosing, which are allocated from a subnet within your VPC.
+All {{site.data.keyword.codeenginefull}} projects offer integration with {{site.data.keyword.vpe_full}}. This support gives you the ability to connect from your {{site.data.keyword.vpc_full}} network to {{site.data.keyword.codeengineshort}} applications or functions by using the IP addresses of your choosing, which are allocated from a subnet within your {{site.data.keyword.vpc_short}}.
 
-With IBM Cloud® Code Engine, you can use the following types of VPEs:
+With {{site.data.keyword.codeengineshort}}, you can use the following types of {{site.data.keyword.vpe_short}}:
 
 * [Virtual Private Endpoints to manage project resources](/docs/codeengine?topic=codeengine-regions#endpoints-project). There is one static VPE per region.
-* [Virtual Private Endpoints to access applications](/docs/codeengine?topic=codeengine-regions#endpoints-app). There is one VPE per IBM Cloud® Code Engine project. All apps within the project can be accessed by using this VPE.
+* [Virtual Private Endpoints to access applications](/docs/codeengine?topic=codeengine-regions#endpoints-app). There is one VPE per {{site.data.keyword.codeengineshort}} project. All apps within the project can be accessed by using this VPE.
 
-Private endpoints provide a connection to your project resources, applications, or functions on the IBM Cloud® Private network. When you connect through a virtual private endpoint, all traffic is routed to hardware that is dedicated to IBM Cloud® Code Engine applications and remains on the IBM Cloud Private network. There are no additional charges for all traffic to and from this endpoint on the condition that the traffic remains in IBM Cloud®.
+Private endpoints provide a connection to your project resources, applications, or functions on the {{site.data.keyword.cloud}} Private network. When you connect through a {{site.data.keyword.vpe_short}}, all traffic is routed to hardware that is dedicated to {{site.data.keyword.codeengineshort}} applications and remains on the {{site.data.keyword.cloud_notm}} Private network. There are no additional charges for all traffic to and from this endpoint on the condition that the traffic remains in {{site.data.keyword.cloud_notm}}.
 
-An IBM Cloud® Code Engine project is automatically configured with both a public and a virtual private endpoint.
+An {{site.data.keyword.codeengineshort}} project is automatically configured with both a public and a virtual private endpoint.
 
-You can control the [visibility](/docs/codeengine?topic=codeengine-application-workloads#optionsvisibility) of IBM Cloud® Code Engine applications and specify whether to expose the application or functions to public or private endpoints. An application or function that is configured for the private network can be accessed through the VPE or by other Code Engine applications or functions. Applications or functions that are accessed through the VPE do not leave the IBM network and stay within the IBM Cloud® network.
+You can control the [visibility](/docs/codeengine?topic=codeengine-application-workloads#optionsvisibility) of {{site.data.keyword.codeengineshort}} applications and specify whether to expose the application or functions to public or private endpoints. An application or function that is configured for the private network can be accessed through the {{site.data.keyword.vpe_short}} or by other {{site.data.keyword.codeengineshort}} applications or functions. Applications or functions that are accessed through the {{site.data.keyword.vpe_short}} do not leave the {{site.data.keyword.cloud_notm}} network and stay within the {{site.data.keyword.cloud_notm}} network.

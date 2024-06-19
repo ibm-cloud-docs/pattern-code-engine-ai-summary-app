@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024, 2024
-lastupdated: "2024-06-18"
+lastupdated: "2024-06-19"
 subcollection: pattern-code-engine-ai-summary-app
 keywords:
 authors:
@@ -16,7 +16,7 @@ authors:
 # Architecture decisions for data
 {: #data-decisions}
 
-The following are data architecture decisions for the inclusion of watsonx.ai summarization in the AI Summarization Using Highly Resilient Serverless Architecture in IBM Cloud® pattern.
+The following are data architecture decisions for the inclusion of watsonx.ai summarization in the `AI summarization using highly resilient serverless architecture in {{site.data.keyword.cloud}}` pattern.
 
 | Architecture decision          | Requirement          | Options    | Decision     | Rationale        |
 |-------------------------------------|---------------------------|-------------------|-------------------|-----------------------|
