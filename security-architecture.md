@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024, 2024
-lastupdated: "2024-06-19"
+lastupdated: "2024-06-21"
 subcollection: pattern-code-engine-ai-summary-app
 keywords:
 authors:
@@ -16,14 +16,14 @@ authors:
 # Architecture decisions for security
 {: #security-decisions}
 
-The following are security architecture decisions for the "AI summarization using highly resilient serverless architecture pattern in {{site.data.keyword.cloud}}" pattern.
+The following are security architecture decisions for the AI summarization using highly resilient serverless architecture pattern in {{site.data.keyword.cloud}}.
 
 ## Architecture decisions for data encryption
 {: #security-encryption}
 
 | Architecture decision      | Requirement           | Options         | Decision          | Rationale            |
 |----------------------------|-----------------------|-----------------|-------------------|----------------------|
-| Data Secrurity (Encryption) | Encrypt all application data in transit to protect it from unauthorized disclosure. | Application-level encryption with TLS | Application-level encryption with TLS | Deployed apps are exposed through HTTPS and {{site.data.keyword.codeenginefull}} creates and manages the underlying TLS certifications automatically for you. |
+| Data Secrurity: Encryption | Encrypt all application data in transit to protect it from unauthorized disclosure. | Application-level encryption with TLS | Application-level encryption with TLS | Deployed apps are exposed through HTTPS and {{site.data.keyword.codeenginefull}} creates and manages the underlying TLS certifications automatically for you. |
 {: caption="Table 1. Architecture decisions for data security" caption-side="bottom"}
 
 ## Architecture decisions for {{site.data.keyword.iamshort}}

@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024, 2024
-lastupdated: "2024-06-19"
+lastupdated: "2024-06-21"
 subcollection: pattern-code-engine-ai-summary-app
 keywords:
 authors:
@@ -20,11 +20,12 @@ All {{site.data.keyword.codeenginefull}} projects offer integration with {{site.
 
 With {{site.data.keyword.codeengineshort}}, you can use the following types of {{site.data.keyword.vpe_short}}:
 
-* [Virtual Private Endpoints to manage project resources](/docs/codeengine?topic=codeengine-regions#endpoints-project). There is one static VPE per region.
+* [Virtual Private Endpoints (VPE) to manage project resources](/docs/codeengine?topic=codeengine-regions#endpoints-project). There is one static VPE per region.
 * [Virtual Private Endpoints to access applications](/docs/codeengine?topic=codeengine-regions#endpoints-app). There is one VPE per {{site.data.keyword.codeengineshort}} project. All apps within the project can be accessed by using this VPE.
 
-Private endpoints provide a connection to your project resources, applications, or functions on the {{site.data.keyword.cloud}} Private network. When you connect through a {{site.data.keyword.vpe_short}}, all traffic is routed to hardware that is dedicated to {{site.data.keyword.codeengineshort}} applications and remains on the {{site.data.keyword.cloud_notm}} Private network. There are no additional charges for all traffic to and from this endpoint on the condition that the traffic remains in {{site.data.keyword.cloud_notm}}.
+Private endpoints provide a connection to your project resources, applications, or functions on the {{site.data.keyword.cloud}} private network. When you connect through a {{site.data.keyword.vpe_short}}, all traffic is routed to hardware that is dedicated to {{site.data.keyword.codeengineshort}} applications and remains on the {{site.data.keyword.cloud_notm}} private network. There are no additional charges for all traffic to and from this endpoint on the condition that the traffic remains in {{site.data.keyword.cloud_notm}}.
 
 An {{site.data.keyword.codeengineshort}} project is automatically configured with both a public and a virtual private endpoint.
+{: note}
 
-You can control the [visibility](/docs/codeengine?topic=codeengine-application-workloads#optionsvisibility) of {{site.data.keyword.codeengineshort}} applications and specify whether to expose the application or functions to public or private endpoints. An application or function that is configured for the private network can be accessed through the {{site.data.keyword.vpe_short}} or by other {{site.data.keyword.codeengineshort}} applications or functions. Applications or functions that are accessed through the {{site.data.keyword.vpe_short}} do not leave the {{site.data.keyword.cloud_notm}} network and stay within the {{site.data.keyword.cloud_notm}} network.
+You can control the [visibility](/docs/codeengine?topic=codeengine-application-workloads#optionsvisibility) of {{site.data.keyword.codeengineshort}} applications and specify whether to expose the application or functions to public or private endpoints. An application or function that is configured for the private network can be accessed through the {{site.data.keyword.vpe_short}} or by other {{site.data.keyword.codeengineshort}} applications or functions. Applications or functions that are accessed through the {{site.data.keyword.vpe_short}} don't leave the {{site.data.keyword.cloud_notm}} network and stay within the {{site.data.keyword.cloud_notm}} network.

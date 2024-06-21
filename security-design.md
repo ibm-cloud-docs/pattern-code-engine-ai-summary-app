@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024, 2024
-lastupdated: "2024-06-19"
+lastupdated: "2024-06-21"
 subcollection: pattern-code-engine-ai-summary-app
 keywords:
 authors:
@@ -17,6 +17,7 @@ authors:
 {: #security-design}
 
 The [{{site.data.keyword.codeenginefull}} architecture](/docs/codeengine?topic=codeengine-architecture) is built with a security-first mindset.
+
 * {{site.data.keyword.codeengineshort}} components are [managed and owned by IBM](/docs/codeengine?topic=codeengine-responsibilities-ce).
 * Customers and their workloads are isolated from each other by using projects, which are based on Kubernetes namespaces.
 * Role-based access controls are performed on a resource level to allow only authorized users to perform certain operations on project resources.
