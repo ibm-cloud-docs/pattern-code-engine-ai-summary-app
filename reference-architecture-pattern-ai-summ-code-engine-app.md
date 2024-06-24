@@ -26,7 +26,7 @@ The AI summarization using highly resilient serverless architecture pattern desc
 ## Architecture diagram
 {: #architecture-diagram}
 
-![Network Diagram](images/code-engine-app-pattern-arch-diagram.svg){: caption="Figure 1. AI Summarization using highly resilient serverless architecture in {{site.data.keyword.cloud_notm}} solution architecture" caption-side="bottom"}
+![Network Diagram](images/code-engine-app-pattern-arch-diagram.svg){: caption="Figure 1. AI Summarization using highly resilient serverless architecture network diagram" caption-side="bottom"}
 
 * {{site.data.keyword.codeengineshort}} abstracts the operational burden of building, deploying, and managing workloads in Kubernetes so that developers can focus on what matters most to them: the source code.
 
@@ -89,7 +89,7 @@ The following represents a baseline set of requirements that are applicable to m
 | DevOps             | Provide a private image repository with vulnerability scanning capability                     |
 | Resiliency         | Deploy the application across multiple regions to make it resilient to regional failures.       |
 | Service management | Provide Health and System monitoring with ability to monitor and correlate performance metrics, events, and provide alerting across applications and infrastructure. \n Ability to diagnose issues and exceptions and identify error source. Get insight into the performance of your workloads   |
-{: caption="Table 1. AI Summarization using highly resilient serverless architecture in {{site.data.keyword.cloud_notm}} requirements" caption-side="bottom"}
+{: caption="Table 1. AI Summarization using highly resilient serverless architecture requirements" caption-side="bottom"}
 
 
 ## Components
@@ -108,4 +108,4 @@ The following represents a baseline set of requirements that are applicable to m
 | Service management | [{{site.data.keyword.monitoringfull_notm}}](/docs/monitoring?topic=monitoring-about-monitor)    | {{site.data.keyword.monitoringfull_notm}} service to monitor {{site.data.keyword.codeengineshort}} workloads. {{site.data.keyword.codeengineshort}} forwards selected information about your workloads to monitoring so that you can monitor specific metrics such as requests, revisions, and duration.   |
 | | [{{site.data.keyword.loganalysisshort}}](/docs/log-analysis?topic=log-analysis-getting-started)              | {{site.data.keyword.codeengineshort}} apps, jobs, functions, or builds in the console with logging enabled, logs are forwarded to an {{site.data.keyword.loganalysisshort}} service where they are indexed, enabling full-text search through all generated messages and convenient querying based on specific fields. |
 | | [{{site.data.keyword.cloudaccesstraillong}}](/docs/atracker?topic=atracker-about)   | View, manage, and audit user-initiated activities made in your {{site.data.keyword.codeengineshort}} service instance by using the {{site.data.keyword.cloudaccesstrailshort}} service.      |
-{: caption="Table 2. AI Summarization using highly resilient serverless architecture in {{site.data.keyword.cloud_notm}} components" caption-side="bottom"}
+{: caption="Table 2. AI Summarization using highly resilient serverless architecture components" caption-side="bottom"}
