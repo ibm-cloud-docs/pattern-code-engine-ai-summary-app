@@ -19,7 +19,7 @@ authors:
 The following are network architecture decisions for the inclusion of watsonx.ai in the AI summarization using highly resilient serverless architecture pattern.
 
 ## Architecture decisions for network visibility: connectivity, segmentation, and isolation
-{: #network-decision-connectivity-segmentation-isolation }
+{: #network-decision-connectivity-segmentation-isolation}
 
 | Architecture decision         | Requirement         | Options      | Decision   | Rationale              |
 |------------------------------------|---------------------------|--------------------|-----------------|-----------------------------|
