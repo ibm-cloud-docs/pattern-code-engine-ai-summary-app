@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024, 2024
-lastupdated: "2024-06-21"
+lastupdated: "2024-06-24"
 subcollection: pattern-code-engine-ai-summary-app
 keywords:
 authors:
@@ -16,7 +16,7 @@ authors:
 # Overview
 {: #overview}
 
-The objective of the AI summarization that uses highly resilient serverless architecture pattern in {{site.data.keyword.cloud}} is to provide users a high-level overview of solution design and components that are used in hosting a highly resilient serverless web application.
+The objective of the AI summarization that uses highly resilient serverless architecture pattern is to provide users a high-level overview of solution design and components that are used in hosting a highly resilient serverless web application.
 
 This pattern describes the deployment architecture of a web application on {{site.data.keyword.codeenginefull}} platform that is deployed across multiple regions of {{site.data.keyword.cloud_notm}}, making it resilient to regional failures and to meet disaster recovery requirements for enterprise workloads. Also, this pattern provides a use case for the web application that demonstrates the text summarization capabilities that are easily available using one of the large language models available in {{site.data.keyword.IBM_notm}} watsonx.ai platform that is hosted in {{site.data.keyword.cloud_notm}}.
 
