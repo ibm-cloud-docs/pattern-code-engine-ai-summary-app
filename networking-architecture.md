@@ -16,7 +16,7 @@ authors:
 # Architecture decisions for network
 {: #network-decisions}
 
-The following are network architecture decisions for the inclusion of watsonx.ai in the AI summarization using highly resilient serverless architecture pattern in {{site.data.keyword.cloud}} pattern.
+The following are network architecture decisions for the inclusion of watsonx.ai in the AI summarization using highly resilient serverless architecture pattern.
 
 ## Architecture decisions for network visibility: connectivity, segmentation, and isolation
 {: #network-decision-connectivity-segmentation-isolation }

@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024, 2024
-lastupdated: "2024-06-21"
+lastupdated: "2024-06-24"
 subcollection: pattern-code-engine-ai-summary-app
 keywords:
 authors:
@@ -14,7 +14,7 @@ authors:
 # Architecture decisions for service management
 {: #service}
 
-The following are service management architecture decisions for the AI summarization using highly resilient serverless architecture pattern in {{site.data.keyword.cloud}}.
+The following are service management architecture decisions for the AI summarization using highly resilient serverless architecture pattern.
 
 ## Architecture decisions for monitoring
 {: #monitoring}

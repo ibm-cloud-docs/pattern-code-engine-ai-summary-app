@@ -15,7 +15,8 @@ authors:
 
 # Architecture decisions for devops
 {: #devops-decisions}
-The following are devops architecture decisions for the inclusion of watsonx.ai summarization in the "AI summarization using highly resilient serverless architecture pattern in {{site.data.keyword.cloud}}" pattern.
+
+The following are devops architecture decisions for the inclusion of watsonx.ai summarization in the AI summarization using highly resilient serverless architecture pattern.
 
 | Architecture decision     | Requirement                | Options                | Decision              | Rationale         |
 |---------------------------|----------------------------|------------------------|-----------------------|-------------------|

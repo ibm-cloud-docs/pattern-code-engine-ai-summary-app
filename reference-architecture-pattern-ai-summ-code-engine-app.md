@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024, 2024
-lastupdated: "2024-06-21"
+lastupdated: "2024-06-24"
 subcollection: pattern-code-engine-ai-summary-app
 keywords:
 version: 1.0
@@ -15,12 +15,12 @@ authors:
 
 {{site.data.keyword.attribute-definition-list}}
 
-# AI summarization using highly resilient serverless architecture in {{site.data.keyword.cloud_notm}}
+# AI summarization using highly resilient serverless architecture
 {: #architecture}
 {: toc-content-type="reference-architecture"}
 {: toc-version="1.0"}
 
-The AI summarization using highly resilient serverless architecture pattern in {{site.data.keyword.cloud}} describes an internet-facing web application that is deployed using {{site.data.keyword.codeenginefull}} serverless platform in two {{site.data.keyword.cloud_notm}} regions. By provisioning an application in two regions, user requests are served in an active-active manner and if an outage in one region occurs, the second region continues to serve user requests.
+The AI summarization using highly resilient serverless architecture pattern describes an internet-facing web application that is deployed using {{site.data.keyword.codeenginefull}} serverless platform in two {{site.data.keyword.cloud_notm}} regions. By provisioning an application in two regions, user requests are served in an active-active manner and if an outage in one region occurs, the second region continues to serve user requests.
 
 
 ## Architecture diagram
@@ -54,7 +54,7 @@ The AI summarization using highly resilient serverless architecture pattern in {
 ## Design scope
 {: #design-scope}
 
-Following the [Architecture Framework](/docs/architecture-framework?topic=architecture-framework-taxonomy), the AI summarization using highly resilient serverless architecture pattern in {{site.data.keyword.cloud_notm}} covers design considerations and architecture decisions for the following aspects and domains:
+Following the [Architecture Framework](/docs/architecture-framework?topic=architecture-framework-taxonomy), the AI summarization using highly resilient serverless architecture pattern covers design considerations and architecture decisions for the following aspects and domains:
 
 * **Data:** Artificial Intelligence
 
@@ -70,7 +70,7 @@ Following the [Architecture Framework](/docs/architecture-framework?topic=archit
 
 * **Service management:** Monitoring, Logging, Auditing
 
-![Design Scope](images/heat-map-template-codeengine-app.svg){: caption="Figure 2. AI Summarization Using Highly Resilient Serverless Architecture in {{site.data.keyword.cloud_notm}} design scope" caption-side="bottom"}
+![Design Scope](images/heat-map-template-codeengine-app.svg){: caption="Figure 2. AI summarization using highly resilient serverless architecture design scope" caption-side="bottom"}
 
 The Architecture Framework provides a consistent approach to design cloud solutions by addressing requirements across a set of aspects and domains, which are technology-agnostic architectural areas that need to be considered for any enterprise solution. For more information, see [Introduction to the architecture framework](/docs/architecture-framework?topic=architecture-framework-intro).
 
@@ -78,7 +78,7 @@ The Architecture Framework provides a consistent approach to design cloud soluti
 ## Requirements
 {: #requirements}
 
-The following represents a baseline set of requirements that are applicable to most clients and critical to successful AI summarization using highly resilient serverless architecture pattern in {{site.data.keyword.cloud_notm}} deployment.
+The following represents a baseline set of requirements that are applicable to most clients and critical to successful AI summarization using highly resilient serverless architecture pattern deployment.
 
 | Aspect             |  Requirement                                                          |
 |--------------------|-----------------------------------------------------------------------|

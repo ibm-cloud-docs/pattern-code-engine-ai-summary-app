@@ -16,7 +16,7 @@ authors:
 # Architecture decisions for resiliency
 {: #resiliency-decisions}
 
-The following are resiliency architecture decisions for the inclusion of watsonx.ai summarization in the "AI summarization using highly resilient serverless architecture pattern in {{site.data.keyword.cloud}}" pattern.
+The following are resiliency architecture decisions for the inclusion of watsonx.ai summarization in the AI summarization using highly resilient serverless architecture pattern.
 
 ## Architecture decisions for high availability
 {: #high-availability}
@@ -30,7 +30,7 @@ The following are resiliency architecture decisions for the inclusion of watsonx
 ## Architecture decisions for backup and restore
 {: #backup-and-restore}
 
-The following are backup and restore architecture decisions for the inclusion of watsonx.ai summarization in the "AI summarization using highly resilient serverless architecture pattern in {{site.data.keyword.cloud}}" pattern.
+The following are backup and restore architecture decisions for the inclusion of watsonx.ai summarization in the AI summarization using highly resilient serverless architecture pattern.
 
 | Architecture decision | Requirement           | Options           | Decision         | Rationale   |
 |---------------------------|----------------------------|------------------------|-----------------------|-------------------|
@@ -40,7 +40,7 @@ The following are backup and restore architecture decisions for the inclusion of
 ## Architecture decisions for disaster recovery
 {: #disaster-recovery}
 
-The following are disaster recovery architecture decisions for the inclusion of watsonx.ai summarization in the "AI summarization using highly resilient serverless architecture pattern in {{site.data.keyword.cloud}}" pattern.
+The following are disaster recovery architecture decisions for the inclusion of watsonx.ai summarization in the AI summarization using highly resilient serverless architecture pattern.
 
 | Architecture decision | Requirement            | Options            | Decision          | Rationale     |
 |---------------------------|----------------------------|------------------------|-----------------------|-------------------|
