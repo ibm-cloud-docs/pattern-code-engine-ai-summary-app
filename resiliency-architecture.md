@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024, 2024
-lastupdated: "2024-06-21"
+lastupdated: "2024-06-24"
 subcollection: pattern-code-engine-ai-summary-app
 keywords:
 authors:
@@ -16,6 +16,8 @@ authors:
 # Architecture decisions for resiliency
 {: #resiliency-decisions}
 
+The following are resiliency architecture decisions for the inclusion of watsonx.ai summarization in the "AI summarization using highly resilient serverless architecture pattern in {{site.data.keyword.cloud}}" pattern.
+
 ## Architecture decisions for high availability
 {: #high-availability}
 
@@ -28,6 +30,8 @@ authors:
 ## Architecture decisions for backup and restore
 {: #backup-and-restore}
 
+The following are backup and restore architecture decisions for the inclusion of watsonx.ai summarization in the "AI summarization using highly resilient serverless architecture pattern in {{site.data.keyword.cloud}}" pattern.
+
 | Architecture decision | Requirement           | Options           | Decision         | Rationale   |
 |---------------------------|----------------------------|------------------------|-----------------------|-------------------|
 | Code repository backup    | Backup application images to enable recovery. | Default backup option of {{site.data.keyword.registryshort}}  | Default backup option of {{site.data.keyword.registryshort}}  | By default, data that is stored in {{site.data.keyword.registryshort}} is replicated over the availability zones and it is also backed up in another region regularly. |
@@ -35,6 +39,8 @@ authors:
 
 ## Architecture decisions for disaster recovery
 {: #disaster-recovery}
+
+The following are disaster recovery architecture decisions for the inclusion of watsonx.ai summarization in the "AI summarization using highly resilient serverless architecture pattern in {{site.data.keyword.cloud}}" pattern.
 
 | Architecture decision | Requirement            | Options            | Decision          | Rationale     |
 |---------------------------|----------------------------|------------------------|-----------------------|-------------------|

@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024, 2024
-lastupdated: "2024-06-21"
+lastupdated: "2024-06-24"
 subcollection: pattern-code-engine-ai-summary-app
 keywords:
 authors:
@@ -15,6 +15,7 @@ authors:
 
 # Architecture decisions for devops
 {: #devops-decisions}
+The following are devops architecture decisions for the inclusion of watsonx.ai summarization in the "AI summarization using highly resilient serverless architecture pattern in {{site.data.keyword.cloud}}" pattern.
 
 | Architecture decision     | Requirement                | Options                | Decision              | Rationale         |
 |---------------------------|----------------------------|------------------------|-----------------------|-------------------|
