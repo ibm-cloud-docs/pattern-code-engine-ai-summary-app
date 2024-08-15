@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024
-lastupdated: "2024-08-14"
+lastupdated: "2024-08-15"
 
 subcollection: pattern-code-engine-ai-summary
 
@@ -24,7 +24,8 @@ This is designed for customers who need a scalable, multi-region infrastructure 
 
 You need the following items to deploy and configure this reference architecture:
 
-* An [IBM Cloud account](https://cloud.ibm.com/registration). Ensure you have an active IBM Cloud account with the necessary permissions to create resources.
+* An [IBM Cloud account](https://cloud.ibm.com/registration). Ensure you have an active IBM Cloud account with the necessary permissions to create resources. Refer to 
+[Account Infrastructure base](https://cloud.ibm.com/catalog/7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3/architecture/deploy-arch-ibm-account-infra-base-63641cec-6093-4b4f-b7b0-98d2f4185cd6-global) for creating and configuring additional needed components of an IBM Cloud account.
 * [Required IAM access policies](https://github.com/terraform-ibm-modules/terraform-ibm-code-engine/blob/main/README.md#required-iam-access-policies).
 * A [watsonx subscription](https://dataplatform.cloud.ibm.com/settings/account?context=wx). Verify that you have a valid Watsonx subscription and the necessary entitlements to deploy watsonx on IBM Cloud.
 
@@ -33,10 +34,10 @@ You need the following items to deploy and configure this reference architecture
 {: #ai-code-engine-app-provision}
 
 1. Add the [watsonx.ai]( https://github.com/terraform-ibm-modules/terraform-ibm-watsonx-saas-da) service to deploy Watson Studio, Watson Machine Learning and COS. 
-2. Provision [Code Engine]( https://registry.terraform.io/providers/IBM-loud/ibm/latest/docs/resources/code_engine_build) to create the highly resilient serverless architecture to housing an internet-facing web application. By provisioning an application in two regions, user requests are served in an active-active manner and if an outage in one region occurs, the second region continues to serve user requests.
+2. Provision [Code Engine](https://github.com/terraform-ibm-modules/terraform-ibm-code-engine/tree/main) to create the highly resilient serverless architecture to housing an internet-facing web application. By provisioning an application in two regions, user requests are served in an active-active manner and if an outage in one region occurs, the second region continues to serve user requests.
 3. Provision [IBM Cloud Internet Services](https://github.com/terraform-ibm-modules/terraform-ibm-cis) to configure Domain Name Services(DNS), Global Load Balancer and Web Application Firewall (WAF). 
 4. Provision [IBM Cloud Monitoring](https://github.com/terraform-ibm-modules/terraform-ibm-observability-instances/tree/main/modules/cloud_monitoring) to integrate with Code Engine and forward selected metrics about workloads.
-5. Provision [IBM Cloud Logs](https://github.com/terraform-ibm-modules/terraform-ibm-observability-instances/tree/main/modules/log_analysis) for quick issue detection, performance optimization and strong security compliance.
+5. Provision [IBM Cloud Logs](https://github.com/terraform-ibm-modules/terraform-ibm-observability-instances/tree/main/modules/cloud_logs) for quick issue detection, performance optimization and strong security compliance.
 6. Provision [IBM Cloud Activity Tracker](https://github.com/terraform-ibm-modules/terraform-ibm-observability-instances/tree/main/modules/activity_tracker) to support the configuration of alerts to detect audit issues and send notifications to targeted channels.
 
 
@@ -48,8 +49,7 @@ You need the following items to deploy and configure this reference architecture
 
 You can add additional services to the resilient enterprise architecture. The additional services include:
 
-1. [Account Infrastructure base](https://cloud.ibm.com/catalog/7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3/architecture/deploy-arch-ibm-account-infra-base-63641cec-6093-4b4f-b7b0-98d2f4185cd6-global) for creating and configuring the foundational components of an IBM Cloud account
-2. [IBM Cloud Observability](https://cloud.ibm.com/catalog/7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3/architecture/deploy-arch-ibm-observability-a3137d28-79e0-479d-8a24-758ebd5a0eab-global) for provisioning and configuring logging, monitoring, and activity tracking.
-3. [IBM Cloud Event Notifications](https://cloud.ibm.com/catalog/7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3/architecture/deploy-arch-ibm-event-notifications-c7ac3ee6-4f48-4236-b974-b0cd8c624a46-global) for a high-throughput message bus that is built with Apache Kafka.
-4. [Security and Compliance Center](https://cloud.ibm.com/catalog/7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3/architecture/deploy-arch-ibm-scc-9423f9bc-1290-4c71-a9ac-01898bfa7ccc-global) for compliance posture of your deployed resources.
-5. [IBM Storage Protect](https://cloud.ibm.com/catalog/content/SPonIBMCloud-20c54034-d319-48c0-beb6-0b4adc54265c-global?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2c%2Fc2VhcmNoPXN0b3JhZ2UlMjUyMHByb3RlY3Qjc2VhcmNoX3Jlc3VsdHM%3D) for data protection operations.
+1. [IBM Cloud Observability](https://cloud.ibm.com/catalog/7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3/architecture/deploy-arch-ibm-observability-a3137d28-79e0-479d-8a24-758ebd5a0eab-global) for provisioning and configuring logging, monitoring, and activity tracking.
+2. [IBM Cloud Event Notifications](https://cloud.ibm.com/catalog/7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3/architecture/deploy-arch-ibm-event-notifications-c7ac3ee6-4f48-4236-b974-b0cd8c624a46-global) for a high-throughput message bus that is built with Apache Kafka.
+3. [Security and Compliance Center](https://cloud.ibm.com/catalog/7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3/architecture/deploy-arch-ibm-scc-9423f9bc-1290-4c71-a9ac-01898bfa7ccc-global) for compliance posture of your deployed resources.
+4. [IBM Storage Protect](https://cloud.ibm.com/catalog/content/SPonIBMCloud-20c54034-d319-48c0-beb6-0b4adc54265c-global?catalog_query=aHR0cHM6Ly9jbG91ZC5pYm0uY29tL2NhdGFsb2c%2Fc2VhcmNoPXN0b3JhZ2UlMjUyMHByb3RlY3Qjc2VhcmNoX3Jlc3VsdHM%3D) for data protection operations.
