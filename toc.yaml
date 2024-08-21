@@ -58,6 +58,10 @@ toc:
           - topic: devops-architecture.md
             navtitle: DevOps
   - navgroup:
+      id: deploy
+      topics:
+      - deploy.md
+  - navgroup:
       id: reference
       topics:
         - references.md
