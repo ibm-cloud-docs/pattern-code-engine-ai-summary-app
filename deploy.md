@@ -24,7 +24,7 @@ This is designed for customers who need a scalable, multi-region infrastructure 
 
 You need the following items to deploy and configure this reference architecture:
 
-* An [IBM Cloud account](https://cloud.ibm.com/registration). Ensure you have an active IBM Cloud account with the necessary permissions to create resources. 
+* An [IBM Cloud account](https://cloud.ibm.com/registration). Ensure you have an active IBM Cloud account with the necessary permissions to create resources.
 * [Required IAM access policies](https://github.com/terraform-ibm-modules/terraform-ibm-code-engine/blob/main/README.md#required-iam-access-policies).
 * A [watsonx subscription](https://dataplatform.cloud.ibm.com/settings/account?context=wx). Verify that you have a valid Watsonx subscription and the necessary entitlements to deploy watsonx on IBM Cloud.
 * A custom domain name to run the web application.
@@ -39,8 +39,6 @@ You need the following items to deploy and configure this reference architecture
   * Code Engine to create the highly resilient serverless architecture for housing an internet-facing web application. By provisioning an application in two regions, user requests are served in an active-active manner and if an outage in one region occurs, the second region continues to serve user requests.
   * IBM Cloud Monitoring to integrate with Code Engine and forward selected metrics about workloads.
   * IBM Cloud Logs for quick issue detection, performance optimization and strong security compliance.
-  * IBM Cloud Activity Tracker to support the configuration of alerts to detect audit issues and send notifications to targeted channels.
+  * IBM Cloud Logs to support the configuration of alerts to detect audit issues and send notifications to targeted channels.
 2. Repeat step 1 to provision the additional region.
-3. Provision [IBM Cloud Internet Services](https://github.com/terraform-ibm-modules/terraform-ibm-cis) to configure Domain Name Services(DNS), Global Load Balancer and Web Application Firewall (WAF). 
-
-
+3. Provision [IBM Cloud Internet Services](https://github.com/terraform-ibm-modules/terraform-ibm-cis) to configure Domain Name Services(DNS), Global Load Balancer and Web Application Firewall (WAF).
