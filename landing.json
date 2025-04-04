@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "title": "Oracle RAC on Power Virtual Server",
-  "introduction":"This is a landing page for the reference architecture describing how to host SAP on IBM Power Virtual Server environment.",
+  "title": "AI summarization using highly resilient serverless architecture",
+  "introduction":"This is a landing page for the reference architecture that describes the deployment architecture of a web application on IBM Cloud® Code Engine platform that is deployed across multiple regions of IBM Cloud, making it resilient to regional failures and to meet disaster recovery requirements for enterprise workloads.",
   "section_topics": {
   "links": [
     {
