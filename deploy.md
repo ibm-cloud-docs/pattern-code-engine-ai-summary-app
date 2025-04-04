@@ -11,7 +11,6 @@ keywords:
 
 
 # Deploying a AI Summarization in Code Engine architecture
-
 {: #ai-code-engine-app-da}
 
 This guide outlines deploying an AI summarization application in IBM Cloud Code Engine, using a highly resilient enterprise architecture. The deployment is based on an existing deployable architecture template, as well as a series of customizations to tailor the setup to the specific requirements for your environment.
