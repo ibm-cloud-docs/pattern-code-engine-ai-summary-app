@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2024, 2024
-lastupdated: "2024-06-24"
+  years: 2024, 2025
+lastupdated: "2025-04-04"
 subcollection: pattern-code-engine-ai-summary-app
 keywords:
 version: 1.0
@@ -26,7 +26,7 @@ The AI summarization using highly resilient serverless architecture pattern desc
 ## Architecture diagram
 {: #architecture-diagram}
 
-![Network Diagram](images/code-engine-app-pattern-arch-diagram.svg){: caption="Figure 1. AI Summarization using highly resilient serverless architecture network diagram" caption-side="bottom"}
+![Network Diagram](images/code-engine-app-pattern-arch-diagram.svg){: caption="AI Summarization using highly resilient serverless architecture network diagram" caption-side="bottom"}
 
 * {{site.data.keyword.codeengineshort}} abstracts the operational burden of building, deploying, and managing workloads in Kubernetes so that developers can focus on what matters most to them: the source code.
 
@@ -38,7 +38,7 @@ The AI summarization using highly resilient serverless architecture pattern desc
 
 * {{site.data.keyword.monitoringfull}} service is setup to monitor your {{site.data.keyword.codeengineshort}} workloads. {{site.data.keyword.codeengineshort}} forwards selected information about your workloads to the monitoring platform so that you can monitor specific metrics such as requests, revisions, and durations with this monitoring that is configurable.
 
-* An {{site.data.keyword.loganalysislong}} service instance is also setup where {{site.data.keyword.codeengineshort}} application logs are forwarded to for help with troubleshooting issues.
+* An {{site.data.keyword.logs_full_notm}} service instance is also setup where {{site.data.keyword.codeengineshort}} application logs are forwarded to for help with troubleshooting issues.
 
 * This pattern uses a global content delivery network (CDN) called [{{site.data.keyword.cis_full}}](/docs/cis?topic=cis-getting-started) and its global load balancer capability to provide global endpoint for the web application.
 
@@ -70,7 +70,7 @@ Following the [Architecture Framework](/docs/architecture-framework?topic=archit
 
 * **Service management:** Monitoring, Logging, Auditing
 
-![Design Scope](images/heat-map-template-codeengine-app.svg){: caption="Figure 2. AI summarization using highly resilient serverless architecture design scope" caption-side="bottom"}
+![Design Scope](images/heat-map-template-codeengine-app.svg){: caption="AI summarization using highly resilient serverless architecture design scope" caption-side="bottom"}
 
 The Architecture Framework provides a consistent approach to design cloud solutions by addressing requirements across a set of aspects and domains, which are technology-agnostic architectural areas that need to be considered for any enterprise solution. For more information, see [Introduction to the architecture framework](/docs/architecture-framework?topic=architecture-framework-intro).
 
@@ -89,7 +89,7 @@ The following represents a baseline set of requirements that are applicable to m
 | DevOps             | Provide a private image repository with vulnerability scanning capability                     |
 | Resiliency         | Deploy the application across multiple regions to make it resilient to regional failures.       |
 | Service management | Provide Health and System monitoring with ability to monitor and correlate performance metrics, events, and provide alerting across applications and infrastructure. \n Ability to diagnose issues and exceptions and identify error source. Get insight into the performance of your workloads   |
-{: caption="Table 1. AI Summarization using highly resilient serverless architecture requirements" caption-side="bottom"}
+{: caption="AI Summarization using highly resilient serverless architecture requirements" caption-side="bottom"}
 
 
 ## Components
@@ -106,6 +106,6 @@ The following represents a baseline set of requirements that are applicable to m
 | | [{{site.data.keyword.cis_short}}](/docs/cis?topic=cis-getting-started)                   | {{site.data.keyword.codeengineshort}} provides immediate DDoS protection for your application. DDoS protection covers System Interconnection (OSI) Layer 3 and Layer 4 (TCP/IP) protocol attacks, but not Layer 7 attacks. CIS provides capability to further add security against Layer 7 attacks by configuring WAF rulesets and WAF firewall rules. |
 | Resiliency    | [{{site.data.keyword.cis_short}}](/docs/cis?topic=cis-getting-started)     | For highly resilient application, {{site.data.keyword.cis_short}} Global Load Balancer provides your application a global endpoint. The origin pools serves as a backend target to the Load Balancer. Origin pools are setup for each of the regions where an application is deployed.  |
 | Service management | [{{site.data.keyword.monitoringfull_notm}}](/docs/monitoring?topic=monitoring-about-monitor)    | {{site.data.keyword.monitoringfull_notm}} service to monitor {{site.data.keyword.codeengineshort}} workloads. {{site.data.keyword.codeengineshort}} forwards selected information about your workloads to monitoring so that you can monitor specific metrics such as requests, revisions, and duration.   |
-| | [{{site.data.keyword.loganalysisshort}}](/docs/log-analysis?topic=log-analysis-getting-started)              | {{site.data.keyword.codeengineshort}} apps, jobs, functions, or builds in the console with logging enabled, logs are forwarded to an {{site.data.keyword.loganalysisshort}} service where they are indexed, enabling full-text search through all generated messages and convenient querying based on specific fields. |
-| | [{{site.data.keyword.cloudaccesstraillong}}](/docs/atracker?topic=atracker-about)   | View, manage, and audit user-initiated activities made in your {{site.data.keyword.codeengineshort}} service instance by using the {{site.data.keyword.cloudaccesstrailshort}} service.      |
-{: caption="Table 2. AI Summarization using highly resilient serverless architecture components" caption-side="bottom"}
+| | [{{site.data.keyword.logs_full_notm}}](/docs/cloud-logs?topic=cloud-logs-getting-started)              | {{site.data.keyword.codeengineshort}} apps, jobs, functions, or builds in the console with logging enabled, logs are forwarded to an {{site.data.keyword.logs_full_notm}} service where they are indexed, enabling full-text search through all generated messages and convenient querying based on specific fields. |
+| | [{{site.data.keyword.logs_full_notm}}](/docs/cloud-logs?topic=cloud-logs-getting-started)   | View, manage, and audit user-initiated activities made in your {{site.data.keyword.codeengineshort}} service instance by using the {{site.data.keyword.logs_full_notm}} service.      |
+{: caption="AI Summarization using highly resilient serverless architecture components" caption-side="bottom"}

@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2024, 2024
-lastupdated: "2024-06-21"
+  years: 2024, 2025
+lastupdated: "2025-04-04"
 subcollection: pattern-code-engine-ai-summary-app
 keywords:
 authors:
@@ -19,12 +19,12 @@ authors:
 ## Logging
 {: #logging}
 
-{{site.data.keyword.codeenginefull}} apps, jobs, functions, or builds in the console with logging enabled, the logs are forwarded to an [{{site.data.keyword.loganalysislong}}](/docs/log-analysis?topic=log-analysis-getting-started) service where they are indexed, enabling full-text search through all generated messages and convenient querying based on specific fields. Logging is enabled for {{site.data.keyword.codeengineshort}} one time only per region and per account.
+{{site.data.keyword.codeenginefull}} apps, jobs, functions, or builds in the console with logging enabled, the logs are forwarded to an [{{site.data.keyword.logs_full_notm}}](/docs/cloud-logs?topic=cloud-logs-getting-started) service where they are indexed, enabling full-text search through all generated messages and convenient querying based on specific fields. Logging is enabled for {{site.data.keyword.codeengineshort}} one time only per region and per account.
 
 ## Auditing
 {: #auditing}
 
-{{site.data.keyword.codeengineshort}} sends audit logs to the [{{site.data.keyword.cloudaccesstraillong}}](/docs/activity-tracker?topic=activity-tracker-getting-started) service in the same region as the {{site.data.keyword.codeengineshort}} project. {{site.data.keyword.cloudaccesstrailshort}} records user-initiated activities that change the state of a service in {{site.data.keyword.cloud}}. You can use this service to investigate abnormal activity and critical actions and to follow regulatory audit requirements. You can also be alerted about actions as they happen. The events that are collected follow the Cloud Auditing Data Federation (CADF) standard.
+{{site.data.keyword.codeengineshort}} sends audit logs to the [{{site.data.keyword.logs_full_notm}}](/docs/cloud-logs?topic=cloud-logs-getting-started) service in the same region as the {{site.data.keyword.codeengineshort}} project. {{site.data.keyword.logs_full_notm}} records user-initiated activities that change the state of a service in {{site.data.keyword.cloud}}. You can use this service to investigate abnormal activity and critical actions and to follow regulatory audit requirements. You can also be alerted about actions as they happen. The events that are collected follow the Cloud Auditing Data Federation (CADF) standard.
 
 ## Monitoring
 {: #monitoring}
