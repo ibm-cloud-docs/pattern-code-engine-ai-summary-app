@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024, 2025
-lastupdated: "2025-04-04"
+lastupdated: "2025-08-04"
 subcollection: pattern-code-engine-ai-summary-app
 keywords:
 authors:
@@ -17,7 +17,7 @@ authors:
 The following are service management architecture decisions for the AI summarization using highly resilient serverless architecture pattern.
 
 ## Architecture decisions for monitoring
-{: #monitoring}
+{: #sm-monitoring}
 
 | Architecture decision        | Requirement        | Options       | Decision          | Rationale     |
 |------------------------------|--------------------|---------------|-------------------|---------------|
@@ -25,7 +25,7 @@ The following are service management architecture decisions for the AI summariza
 {: caption="Architecture decisions for monitoring" caption-side="bottom"}
 
 ## Architecture decisions for logging
-{: #logging}
+{: #sm-logging}
 
 | Architecture decision        | Requirement        | Options       | Decision          | Rationale     |
 |------------------------------|--------------------|---------------|-------------------|---------------|
@@ -33,7 +33,7 @@ The following are service management architecture decisions for the AI summariza
 {: caption="Architecture decisions for logging" caption-side="bottom"}
 
 ## Architecture decisions for auditing
-{: #auditing}
+{: #sm-auditing}
 
 | Architecture decision        | Requirement        | Options       | Decision          | Rationale     |
 |------------------------------|--------------------|---------------|-------------------|---------------|

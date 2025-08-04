@@ -3,7 +3,7 @@ copyright:
   years: 2024
 lastupdated: "2024-08-19"
 
-subcollection: pattern-code-engine-ai-summary
+subcollection: pattern-code-engine-ai-summary-app
 
 keywords:
 ---
