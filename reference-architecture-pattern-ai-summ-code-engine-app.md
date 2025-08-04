@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2024, 2025
-lastupdated: "2025-04-04"
+lastupdated: "2025-08-04"
 subcollection: pattern-code-engine-ai-summary-app
 keywords:
 version: 1.0
@@ -97,7 +97,7 @@ The following represents a baseline set of requirements that are applicable to m
 
 | Aspect            | Component                           | How the component is used           |
 |-------------------|-------------------------------------|-------------------------------------|
-| Data                   | [IBM watsonx.ai](https://www.ibm.com/watsonx){: external}       | Summarization is performed by the {{site.data.keyword.IBM_notm}} Developed GRANITE model, which is hosted and used by {{site.data.keyword.IBM_notm}} watsonx.ai, bringing together new generative AI capabilities powered by foundation models and traditional machine learning (ML) into a powerful studio spanning the AI lifecycle.       |
+| Data                   | [IBM watsonx.ai](https://www.ibm.com/products/watsonx){: external}       | Summarization is performed by the {{site.data.keyword.IBM_notm}} Developed GRANITE model, which is hosted and used by {{site.data.keyword.IBM_notm}} watsonx.ai, bringing together new generative AI capabilities powered by foundation models and traditional machine learning (ML) into a powerful studio spanning the AI lifecycle.       |
 | Compute                | [{{site.data.keyword.codeengineshort}}](/docs/codeengine?topic=codeengine-ceapplications) | Abstracts the operational burden of building, deploying, and managing workloads in Kubernetes.               |
 | Networking             | [Global Load Balancer](/docs/cis?topic=cis-configure-glb)  | Public load balancing of web server traffic across regions     |
 | | [{{site.data.keyword.dns_full}}](/docs/dns-svcs?topic=dns-svcs-about-dns-services)  | The Domain Name System (DNS) to associate human-friendly domain names with IP addresses     |
