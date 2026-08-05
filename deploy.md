@@ -33,11 +33,11 @@ You need the following items to deploy and configure this reference architecture
 {: #ai-code-engine-app-provision}
 
 1. Provision [the architecture stack](https://cloud.ibm.com/catalog/7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3/architecture/Retrieval_Augmented_Generation_Pattern-5fdd0045-30fc-4013-a8bc-6db9d5447a52-global){: external} to deploy the following:
-  * Account Infrastructure base for creating and configuring additional needed components of an IBM Cloud account.
-  * The watsonx.ai service to deploy Watson Studio, Watson Machine Learning and Cloud Object Storage (COS).
-  * {{site.data.keyword.codeengineshort}} to create the highly resilient serverless architecture for housing an internet-facing web application. By provisioning an application in two regions, user requests are served in an active-active manner and if an outage in one region occurs, the second region continues to serve user requests.
-  * {{site.data.keyword.monitoringfull_notm}} to integrate with {{site.data.keyword.codeengineshort}} and forward selected metrics about workloads.
-  * {{site.data.keyword.logs_full_notm}} for quick issue detection, performance optimization and strong security compliance.
-  * {{site.data.keyword.logs_full_notm}} to support the configuration of alerts to detect audit issues and send notifications to targeted channels.
+   * Account Infrastructure base for creating and configuring additional needed components of an IBM Cloud account.
+   * The watsonx.ai service to deploy Watson Studio, Watson Machine Learning and Cloud Object Storage (COS).
+   * {{site.data.keyword.codeengineshort}} to create the highly resilient serverless architecture for housing an internet-facing web application. By provisioning an application in two regions, user requests are served in an active-active manner and if an outage in one region occurs, the second region continues to serve user requests.
+   * {{site.data.keyword.monitoringfull_notm}} to integrate with {{site.data.keyword.codeengineshort}} and forward selected metrics about workloads.
+   * {{site.data.keyword.logs_full_notm}} for quick issue detection, performance optimization and strong security compliance.
+   * {{site.data.keyword.logs_full_notm}} to support the configuration of alerts to detect audit issues and send notifications to targeted channels.
 2. Repeat step 1 to provision the additional region.
 3. Provision [{{site.data.keyword.cis_full}}](https://github.com/terraform-ibm-modules/terraform-ibm-cis){: external} to configure Domain Name Services (DNS), Global Load Balancer and Web Application Firewall (WAF).
