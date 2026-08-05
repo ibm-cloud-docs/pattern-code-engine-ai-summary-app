@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2024, 2024
-lastupdated: "2024-10-09"
+  years: 2024, 2026
+lastupdated: "2026-08-05"
 subcollection: pattern-code-engine-ai-summary-app
 keywords:
 authors:
@@ -23,7 +23,7 @@ The following are security architecture decisions for the AI summarization using
 
 | Architecture decision      | Requirement           | Options         | Decision          | Rationale            |
 |----------------------------|-----------------------|-----------------|-------------------|----------------------|
-| Data Secrurity: Encryption | Encrypt all application data in transit to protect it from unauthorized disclosure. | Application-level encryption with TLS | Application-level encryption with TLS | Deployed apps are exposed through HTTPS and {{site.data.keyword.codeenginefull}} creates and manages the underlying TLS certifications automatically for you. |
+| Data Security: Encryption | Encrypt all application data in transit to protect it from unauthorized disclosure. | Application-level encryption with TLS | Application-level encryption with TLS | Deployed apps are exposed through HTTPS and {{site.data.keyword.codeenginefull}} creates and manages the underlying TLS certifications automatically for you. |
 {: caption="Architecture decisions for data security" caption-side="bottom"}
 
 ## Architecture decisions for {{site.data.keyword.iamshort}}

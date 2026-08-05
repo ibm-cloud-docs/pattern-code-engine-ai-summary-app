@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2024, 2024
-lastupdated: "2024-06-24"
+  years: 2024, 2026
+lastupdated: "2026-08-05"
 subcollection: pattern-code-engine-ai-summary-app
 keywords:
 authors:
@@ -20,7 +20,7 @@ The objective of the AI summarization that uses highly resilient serverless arch
 
 This pattern describes the deployment architecture of a web application on {{site.data.keyword.codeenginefull}} platform that is deployed across multiple regions of {{site.data.keyword.cloud_notm}}, making it resilient to regional failures and to meet disaster recovery requirements for enterprise workloads. Also, this pattern provides a use case for the web application that demonstrates the text summarization capabilities that are easily available using one of the large language models available in {{site.data.keyword.IBM_notm}} watsonx.ai platform that is hosted in {{site.data.keyword.cloud_notm}}.
 
-The web application uses ‘IBM-watsonx-ai’ Python library for inferencing by using the foundation model available in {{site.data.keyword.IBM_notm}} watsonx.ai.
+The web application uses the `ibm-watsonx-ai` Python library for inferencing by using the foundation model available in {{site.data.keyword.IBM_notm}} watsonx.ai.
 
 The {{site.data.keyword.codeengineshort}} serverless platform experience is designed so that one can focus on writing code and not on the infrastructure that is needed to host it. In addition, this guidance is intended to:
 

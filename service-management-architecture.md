@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2024, 2025
-lastupdated: "2025-08-04"
+  years: 2024, 2026
+lastupdated: "2026-08-05"
 subcollection: pattern-code-engine-ai-summary-app
 keywords:
 authors:
@@ -10,6 +10,8 @@ authors:
   - name: "Sharon Wheless"
     email: "sharon.wheless@us.ibm.com"
 ---
+
+{{site.data.keyword.attribute-definition-list}}
 
 # Architecture decisions for service management
 {: #service}

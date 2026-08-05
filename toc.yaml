@@ -1,11 +1,9 @@
----
 toc:
   properties:
     subcollection: pattern-code-engine-ai-summary-app
-    # industry: industry-value
     use-case: serverless
-    # compliance: compliance-value
     audience: solution
+    category: ai
     content-type: deployment
     href: /docs/pattern-code-engine-ai-summary-app
     path: pattern-code-engine-ai-summary-app
@@ -64,4 +62,4 @@ toc:
   - navgroup:
       id: reference
       topics:
-        - references.md
+      - references.md

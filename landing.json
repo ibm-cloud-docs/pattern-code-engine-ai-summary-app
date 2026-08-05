@@ -1,32 +1,32 @@
 {
   "version": 2,
   "title": "AI summarization using highly resilient serverless architecture",
-  "introduction":"This is a landing page for the reference architecture that describes the deployment architecture of a web application on IBM Cloud® Code Engine platform that is deployed across multiple regions of IBM Cloud, making it resilient to regional failures and to meet disaster recovery requirements for enterprise workloads.",
+  "introduction": "This is a landing page for the reference architecture that describes the deployment architecture of a web application on IBM Cloud® Code Engine platform that is deployed across multiple regions of IBM Cloud, making it resilient to regional failures and to meet disaster recovery requirements for enterprise workloads.",
   "section_topics": {
-  "links": [
-    {
-      "title": "Overview",
-      "href": "/docs/pattern-code-engine-ai-summary-app?topic=pattern-code-engine-ai-summary-app-overview"
-    },
-    {
-      "title": "Reference Architecture",
-      "href": "/docs/pattern-code-engine-ai-summary-app?topic=pattern-code-engine-ai-summary-app-architecture"
-    },
-    {
-      "title": "Planning",
-      "href": "/docs/pattern-code-engine-ai-summary-app?topic=pattern-code-engine-ai-summary-app-compute-design"
-    },
-    {
-      "title": "Deploying",
-      "href": "/docs/pattern-code-engine-ai-summary-app?topic=pattern-code-engine-ai-summary-app-ai-code-engine-app-da"
-    }
-  ]
-},
+    "links": [
+      {
+        "title": "Overview",
+        "href": "/docs/pattern-code-engine-ai-summary-app?topic=pattern-code-engine-ai-summary-app-overview"
+      },
+      {
+        "title": "Reference Architecture",
+        "href": "/docs/pattern-code-engine-ai-summary-app?topic=pattern-code-engine-ai-summary-app-architecture"
+      },
+      {
+        "title": "Planning",
+        "href": "/docs/pattern-code-engine-ai-summary-app?topic=pattern-code-engine-ai-summary-app-compute-design"
+      },
+      {
+        "title": "Deploying",
+        "href": "/docs/pattern-code-engine-ai-summary-app?topic=pattern-code-engine-ai-summary-app-ai-code-engine-app-da"
+      }
+    ]
+  },
   "section_architectures": [
     {
-      "title": "Deploying a AI Summarization in Code Engine architecture",
+      "title": "Deploying an AI summarization in Code Engine architecture",
       "href": "/docs/pattern-code-engine-ai-summary-app?topic=pattern-code-engine-ai-summary-app-overview",
       "deployable": false
     }
   ]
- }
+}

@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2024, 2025
-lastupdated: "2025-08-04"
+  years: 2024, 2026
+lastupdated: "2026-08-05"
 subcollection: pattern-code-engine-ai-summary-app
 keywords:
 version: 1.0
@@ -106,6 +106,6 @@ The following represents a baseline set of requirements that are applicable to m
 | | [{{site.data.keyword.cis_short}}](/docs/cis?topic=cis-getting-started)                   | {{site.data.keyword.codeengineshort}} provides immediate DDoS protection for your application. DDoS protection covers System Interconnection (OSI) Layer 3 and Layer 4 (TCP/IP) protocol attacks, but not Layer 7 attacks. CIS provides capability to further add security against Layer 7 attacks by configuring WAF rulesets and WAF firewall rules. |
 | Resiliency    | [{{site.data.keyword.cis_short}}](/docs/cis?topic=cis-getting-started)     | For highly resilient application, {{site.data.keyword.cis_short}} Global Load Balancer provides your application a global endpoint. The origin pools serves as a backend target to the Load Balancer. Origin pools are setup for each of the regions where an application is deployed.  |
 | Service management | [{{site.data.keyword.monitoringfull_notm}}](/docs/monitoring?topic=monitoring-about-monitor)    | {{site.data.keyword.monitoringfull_notm}} service to monitor {{site.data.keyword.codeengineshort}} workloads. {{site.data.keyword.codeengineshort}} forwards selected information about your workloads to monitoring so that you can monitor specific metrics such as requests, revisions, and duration.   |
-| | [{{site.data.keyword.logs_full_notm}}](/docs/cloud-logs?topic=cloud-logs-getting-started)              | {{site.data.keyword.codeengineshort}} apps, jobs, functions, or builds in the console with logging enabled, logs are forwarded to an {{site.data.keyword.logs_full_notm}} service where they are indexed, enabling full-text search through all generated messages and convenient querying based on specific fields. |
-| | [{{site.data.keyword.logs_full_notm}}](/docs/cloud-logs?topic=cloud-logs-getting-started)   | View, manage, and audit user-initiated activities made in your {{site.data.keyword.codeengineshort}} service instance by using the {{site.data.keyword.logs_full_notm}} service.      |
+| | [{{site.data.keyword.logs_full_notm}}](/docs/cloud-logs?topic=cloud-logs-getting-started) (Logging) | {{site.data.keyword.codeengineshort}} apps, jobs, functions, or builds in the console with logging enabled, logs are forwarded to an {{site.data.keyword.logs_full_notm}} service where they are indexed, enabling full-text search through all generated messages and convenient querying based on specific fields. |
+| | [{{site.data.keyword.logs_full_notm}}](/docs/cloud-logs?topic=cloud-logs-getting-started) (Auditing) | View, manage, and audit user-initiated activities made in your {{site.data.keyword.codeengineshort}} service instance by using the {{site.data.keyword.logs_full_notm}} service.      |
 {: caption="AI Summarization using highly resilient serverless architecture components" caption-side="bottom"}
